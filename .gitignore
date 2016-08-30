@@ -1,12 +1,16 @@
-*.class
+# Logs
+logs
+*.log
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+#Ignore our built files
+build/*
+architecture.json
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Ignore sensitive stuff
+/config/*
+!/config/default.json
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+node_modules
+storage
+.idea
+*.swp

@@ -1,0 +1,25 @@
+{
+  "name": "cartographer",
+  "description": "Create authentic looking D&D maps in your browser ",
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "gulp prod",
+    "start": "node server.js"
+  },
+  "author": "stolksdorf",
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "*",
+    "body-parser": "*",
+    "classnames": "*",
+    "express": "*",
+    "gulp": "*",
+    "lodash": "*",
+    "pico-flux": "*",
+    "pico-router": "*",
+    "react": "*",
+    "react-dom": "*",
+    "superagent": "*",
+    "vitreum": "*"
+  }
+}
